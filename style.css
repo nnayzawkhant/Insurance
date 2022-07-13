@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;1,900&family=DM+Serif+Display:ital@0;1&family=Josefin+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Playfair+Display:wght@400;500;600&family=Poppins:ital,wght@0,300;0,400;1,300&family=Roboto:ital,wght@0,300;0,400;1,100;1,300&family=Work+Sans:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.Menubar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    padding:10px 100px;
+    background: #0D4A31;
+    position: sticky;
+    top: 0;
+    opacity: 0.95;
+    
+}
+h2,h3{
+    font-family: 'Playfair Display';
+}
+.Menubar .logo h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.Menubar nav a{
+    text-decoration: none;
+    margin: 0 15px;
+    color: #FFFFFF;
+    font-size: 13px;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+
+nav a:hover{
+    color: #F7C85A;
+    background: #FFFFFF;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+}
+nav button{
+    padding: 8px 16px;
+    background: #F7C85A;
+    border-radius: 5.25px;
+    border: 0;
+    cursor: pointer;
+}
+nav button:hover{
+    color: #FFFFFF;
+    background: #0D4A31;
+    transition: all 0.3s ease;
+}
+.Main-header{
+    background-repeat: no-repeat;
+    background: #0D4A31;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.Covered{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Covered-life {
+    display: grid;
+    gap: 2rem;
+    align-items: center;
+}
+.Covered-life h1{
+    font-family: 'Playfair Display', serif;
+    color: #FFFFFF;
+    line-height: 50px;
+}
+.Covered-life p{
+    color: #FFFFFF;
+    line-height: 30px;
+    font-size: 11px;
+}
+.Covered-life .Covered-button button{
+    padding: 8px 16px;
+    background: #F7C85A;
+    border: 0;
+    border-radius: 5.25px;
+    cursor: pointer;
+}
+.Covered-life .Covered-button button:hover{
+    background: #0D4A31;
+    color: #FFFFFF;
+}
+.Covered-img a img{
+    width: 100px;
+}
+.Pexels img{
+    max-width:280px ;
+}
+.Pexels{
+    z-index: 1;
+    position: relative;
+    padding: 70px;
+}
+.Pexels .lock{
+    position: absolute;
+    left: 0;
+    top: 30%;
+    background: #FFFFFF;
+    padding: 10px;
+    border-radius: 50%;
+}
+.Pexels .earth{
+    position: absolute;
+    left: 55%;
+    background: #FFFFFF;
+    padding: 10px;
+    border-radius: 50%;
+}
+.Pexels .star{
+    position: absolute;
+    right: 0;
+    top: 38%;
+    background: #FFFFFF;
+    padding: 10px;
+    border-radius: 50%;
+}
+.Bg{
+    position: absolute;
+    left: 46.46%;
+    right: -27.5%;
+    top: -5.31%;
+    bottom: 85.14%;
+    opacity: 0.5;
+}
+.qualified{
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 3px;
+    padding: 7px;
+    position: absolute;
+    top: 55%;
+    left: -10px;
+}
+.qualified p{
+    font-size: 12px;
+}
+.Mind{
+    position: absolute;
+    right: -60px;
+    top: 58%;
+}
+.Mind p{
+    
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 3px;
+    line-height: 25px;
+    font-size: 12px;
+}
+.Mind img{
+    margin-left: -10px;
+    margin-bottom: -20px;
+}
+.Individual{
+    display: grid;
+    gap: 2rem;
+    padding-top: 20px;
+    position: relative;
+    padding-bottom: 50px;
+}
+.Umbrella{
+    text-align: center;
+
+    position: relative;
+}
+.underlined{
+    position: absolute;
+    width: 43px;
+    height: 2px;
+    left: 204px;
+    top: 40px;
+    background: #BECEC7;
+}
+.Group{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding-bottom: 0px;
+}
+.Card {
+    background: #FFFFFF;
+    box-shadow: 0px 15px 34px rgba(33, 37, 106, 0.1);
+    border-radius: 5px;
+}
+.Card .small-card{
+    padding: 20px;
+
+}
+
+.Card .small-card p{
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 25px;
+    color: #4F4F4F;
+}
+.Browse {
+    text-align: center;
+    margin: auto;
+    
+}
+.Browse button{
+    font-size: 11px;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background: #F8C140;
+    border: 0;
+    cursor: pointer;
+}
+.Browse button:hover{
+    color: #FFFFFF;
+    background: #0D4A31;
+}
+.Experienced{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.Agents{
+    display: grid;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+}
+.Agents p{
+    font-size: 12px;
+    line-height: 25px;
+    color: #595959;
+}
+.Agents .underline{
+    width: 43px;
+    height: 2px;
+    left: 204px;
+    top: 40px;
+    background: #BECEC7;
+}
+.Main-sidebar{
+    display: grid;
+    color: #FFFFFF;
+    background: linear-gradient(127.03deg, #1F8058 -35.24%, #0D4A31 75.51%);
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    border-radius: 5px;
+}
+.left-sidebar{
+    padding: 50px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-bottom: 1px solid #ADB2FF;
+    border-right: 1px solid #ADB2FF;
+    display: grid;
+    gap: 1rem;
+}
+.right-sidebar{
+    padding: 50px;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: grid;
+    gap: 1rem;
+}
+.up-sidebar{
+    padding: 50px;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: grid;
+    gap: 1rem;
+}
+.bottom-sidebar{
+    background: #FFFFFF;
+    color: #000;
+    padding: 50px;
+    margin: -20px;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    box-shadow: 0px 16.0256px 36.3248px rgba(18, 87, 59, 0.25);
+    border-radius: 5.34188px;
+}
+.bottom-sidebar h2{
+    margin-bottom: 10px;
+}
+.bottom-sidebar p{
+    font-size: 12px;
+    line-height: 25px;
+    color: #595959;
+    margin-bottom: 10px;
+}
+.bottom-sidebar button{
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 11px;
+    background: #F8C140;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bottom-sidebar button:hover{
+    color: #FFFFFF;
+    background: #0D4A31;
+}
+.Guard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+.got img{
+    max-width: 300px;
+}
+.caught{
+    display: grid;
+    gap: 1rem;
+    align-items: center;
+    position: relative;
+}
+.caught p{
+    font-size: 12px;
+    line-height: 25px;
+    color: #4F4F4F;
+}
+.caught .underline{
+    width: 43px;
+    height: 2px;
+    left: 204px;
+    top: 40px;
+    background: #BECEC7;
+}
+.Customers{
+    width: 100%;
+    height: 100vh;
+    background-image: url(photo/Vector\ 26.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    padding-top: 10%;
+    overflow: hidden;
+    position: relative;
+}
+.Our-customers .outlined{
+    width: 43px;
+    height: 2px;
+    left: 204px;
+    top: 40px;
+    background: #BECEC7;
+}
+.Our-customers{
+    text-align: center;
+}
+.Curabitur{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+.Curabitur p{
+    line-height: 25px;
+    font-size: 12px;
+    opacity: 0.6;
+}
+.Middle{
+    background: #0D4A31;
+    width: 100%;
+    height: 50vh;
+    margin-top: -200px;
+}
+.Contact{
+    background: #0D4A31;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    padding-bottom: 150px;
+}
+.contact-us{
+    position: relative;
+    display: grid;
+    gap: 1rem;
+}
+.contact-us .underlined{
+    width: 43px;
+    height: 2px;
+    left: 0px;
+    top: 40px;
+    position: absolute;
+    background: #BECEC7;
+}
+.contact-us h2{
+    color: #FFFFFF;
+}
+.contact-us p{
+    color: #FFFFFF;
+    font-size: 13px;
+    line-height: 25px;
+}
+.Link{
+    background: #FFFFFF;
+    padding: 20px;
+    display: grid;
+    gap: 1rem;
+    align-items: center;
+    border-radius: 5px;
+}
+.Link .vector{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.vector .email p{
+    color: #272D95;
+    font-size: 12px;
+}
+.vector .icon{
+    padding: 15px;
+    background: #0D4A31;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+.Main-input{
+    display: grid;
+    padding: 5px;
+    background: #FFFFFF;
+    gap: 2rem;
+    border-radius: 5px;
+}
+.Main-input input{
+    padding: 10px;
+    width: 350px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+.Main-input textarea{
+    width: 350px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+.Main-input button{
+    margin: auto;
+    padding: 5px 20px;
+    background: #6C74F4;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Main-input button:hover{
+    color: #FFFFFF;
+    background: #0D4A31;
+}
+@media (max-width:760px),(max-width: 340px){
+    .Menubar{
+        display: block;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .logo h1{
+        font-size: 12px;
+    }
+    .Menubar nav a{
+        display: block;
+        padding: 10px;
+        text-align: center;
+        margin: auto;
+    }
+    .Menubar nav button{
+        margin-top: 20px;
+    }
+    .Covered .Bg{
+        display: none;
+    }
+    .Covered .Pexels .removebg{
+        width: 140px;
+    }
+
+    .Covered-life{
+        display: grid;
+        gap: 1rem;
+        text-align: center;
+        z-index: 1;
+    }
+    .Covered-life h1{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .Covered-life h1 br{
+        display: none;
+    }
+    .Experienced{
+        flex-wrap: wrap;
+        padding: 50px;
+    }
+    .Customers{
+        padding-bottom: 20px;
+    }
+    .Guard{
+        flex-wrap: wrap;
+    }
+    .Contact{
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+}
