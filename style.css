@@ -9,6 +9,12 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.logo h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #FFFFFF;
+    
+}
 .Menubar{
     display: flex;
     align-items: center;
@@ -24,11 +30,7 @@ body{
 h2,h3{
     font-family: 'Playfair Display';
 }
-.Menubar .logo h1{
-    text-transform: uppercase;
-    font-size: 20px;
-    color: #FFFFFF;
-}
+
 .Menubar nav a{
     text-decoration: none;
     margin: 0 15px;
@@ -38,7 +40,9 @@ h2,h3{
     padding: 10px;
 
 }
-
+.icon{
+    display: none;
+}
 nav a:hover{
     color: #F7C85A;
     background: #FFFFFF;
@@ -477,18 +481,30 @@ nav button:hover{
 }
 @media (max-width:760px),(max-width: 340px){
     .Menubar{
-        display: block;
-        text-align: center;
-        padding-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
     }
     .logo h1{
         font-size: 12px;
     }
-    .Menubar nav a{
+    .icon {
         display: block;
+        cursor: pointer;
+    }
+    .icon img{
+        width: 10px;
+    }
+    .Menubar nav{
+        display: none;
+    }
+    .Menubar nav a{
+        width: 100%;
+        display: flex;
         padding: 10px;
         text-align: center;
         margin: auto;
+
     }
     .Menubar nav button{
         margin-top: 20px;
@@ -526,5 +542,14 @@ nav button:hover{
     .Contact{
         flex-wrap: wrap;
         padding: 10px;
+    }
+    .small-navber{
+        display: none;
+        position: absolute;
+         width: 100%;
+         color: #000;
+         background-color: #ADB2FF;
+         top: 50px;
+         left: 0;
     }
 }
