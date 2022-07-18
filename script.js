@@ -4,13 +4,14 @@ var Navber = document.querySelector(".navber")
 
 
 Icon.onclick = function(){
-    Navber.classList.toggle(".small-navber")
-    Navber.style.display = "block";
-    this.style.display = "none";
-    Icon.style.display = "block";
+    if(Navber.style.display == "block") {
+        Navber.style.display = "none"
+        this.style.display = "block"
+    }else{
+        Navber.style.display = "block"
+        
+    }
 }
-Icon.onclick = function(){
-    Navber.style.display = "block"
-}
+
 
 
